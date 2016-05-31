@@ -1,0 +1,38 @@
+body{
+    font-family: sans-serif;
+    background-color: dimgrey;
+}
+
+.wrapper{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.wrapper>div{
+    flex: 0 0 300px;
+    background-color: white;
+    margin-bottom: 2em;
+}
+
+.album h3, .album h4, .album p{
+    padding: 0 1em;
+}
+
+.album{
+    display: flex;
+    flex-direction: column;
+}
+
+.album button{
+    margin: auto auto 1em auto;
+}
+
+.wrapper>div:empty{
+    height: 0;
+}
+
+img{
+    width: 400px;
+    height: auto;
+}

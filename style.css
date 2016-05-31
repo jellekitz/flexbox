@@ -1,0 +1,17 @@
+body{
+    background-color: dimgrey;
+    line-height: 1.2;
+    font-family: sans-serif;
+}
+
+#Menu{
+    text-align: center;
+}
+
+#links{
+    display: inline-block;
+}
+
+#rechts{
+    display: inline-block;
+}
